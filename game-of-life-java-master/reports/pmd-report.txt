@@ -1,0 +1,966 @@
+src/main/java/gof/console/ConsoleDriver.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/console/ConsoleDriver.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/console/ConsoleDriver.java:7:	CommentRequired: Class comments are required
+src/main/java/gof/console/ConsoleDriver.java:7:	CommentRequired: Class comments are required
+src/main/java/gof/console/ConsoleDriver.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/ConsoleDriver.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/ConsoleDriver.java:8:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/console/ConsoleDriver.java:8:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/console/ConsoleDriver.java:8:	MissingOverride: The method 'displayBoard(Board)' is missing an @Override annotation.
+src/main/java/gof/console/ConsoleDriver.java:8:	MissingOverride: The method 'displayBoard(Board)' is missing an @Override annotation.
+src/main/java/gof/console/ConsoleDriver.java:9:	LocalVariableCouldBeFinal: Local variable 'grid' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:9:	LocalVariableCouldBeFinal: Local variable 'grid' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:11:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/console/ConsoleDriver.java:11:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/console/ConsoleDriver.java:11:	LocalVariableCouldBeFinal: Local variable 'border' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:11:	LocalVariableCouldBeFinal: Local variable 'border' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:13:	SystemPrintln: System.out.println is used
+src/main/java/gof/console/ConsoleDriver.java:13:	SystemPrintln: System.out.println is used
+src/main/java/gof/console/ConsoleDriver.java:15:	LocalVariableCouldBeFinal: Local variable 'row' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:15:	LocalVariableCouldBeFinal: Local variable 'row' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:16:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/console/ConsoleDriver.java:16:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/console/ConsoleDriver.java:17:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:17:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/gof/console/ConsoleDriver.java:18:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/console/ConsoleDriver.java:18:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/console/ConsoleDriver.java:20:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/console/ConsoleDriver.java:20:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/console/ConsoleDriver.java:21:	SystemPrintln: System.out.println is used
+src/main/java/gof/console/ConsoleDriver.java:21:	SystemPrintln: System.out.println is used
+src/main/java/gof/console/ConsoleDriver.java:24:	SystemPrintln: System.out.println is used
+src/main/java/gof/console/ConsoleDriver.java:24:	SystemPrintln: System.out.println is used
+src/main/java/gof/console/Display.java:7:	UnusedImports: Avoid unused imports such as 'gof.core.Cell'
+src/main/java/gof/console/Display.java:7:	UnusedImports: Avoid unused imports such as 'gof.core.Cell'
+src/main/java/gof/console/Display.java:10:	CommentRequired: Class comments are required
+src/main/java/gof/console/Display.java:10:	CommentRequired: Class comments are required
+src/main/java/gof/console/Display.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/Display.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/Display.java:15:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'driver' (lines '15'-'18').
+src/main/java/gof/console/Display.java:15:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'driver' (lines '15'-'18').
+src/main/java/gof/console/Display.java:26:	CommentRequired: Class comments are required
+src/main/java/gof/console/Display.java:26:	CommentRequired: Class comments are required
+src/main/java/gof/console/Display.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/console/Display.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/console/Display.java:27:	CommentRequired: Field comments are required
+src/main/java/gof/console/Display.java:27:	CommentRequired: Field comments are required
+src/main/java/gof/console/Display.java:27:	ImmutableField: Private field 'eclipse' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/console/Display.java:27:	ImmutableField: Private field 'eclipse' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/console/Display.java:29:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/gof/console/Display.java:29:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/gof/console/Display.java:29:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/Display.java:29:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/Display.java:33:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/Display.java:33:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/Display.java:33:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/console/Display.java:33:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/console/Display.java:33:	MissingOverride: The method 'displayBoard(Board)' is missing an @Override annotation.
+src/main/java/gof/console/Display.java:33:	MissingOverride: The method 'displayBoard(Board)' is missing an @Override annotation.
+src/main/java/gof/console/GameOfLife.java:7:	CommentRequired: Class comments are required
+src/main/java/gof/console/GameOfLife.java:7:	CommentRequired: Class comments are required
+src/main/java/gof/console/GameOfLife.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/gof/console/GameOfLife.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/gof/console/GameOfLife.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/GameOfLife.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/console/GameOfLife.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/gof/console/GameOfLife.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/gof/console/GameOfLife.java:9:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/gof/console/GameOfLife.java:9:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/gof/console/GameOfLife.java:10:	SystemPrintln: System.out.print is used
+src/main/java/gof/console/GameOfLife.java:10:	SystemPrintln: System.out.print is used
+src/main/java/gof/console/GameOfLife.java:11:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/gof/console/GameOfLife.java:11:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/gof/console/GameOfLife.java:11:	LocalVariableCouldBeFinal: Local variable 'in' could be declared final
+src/main/java/gof/console/GameOfLife.java:11:	LocalVariableCouldBeFinal: Local variable 'in' could be declared final
+src/main/java/gof/console/GameOfLife.java:11:	ShortVariable: Avoid variables with short names like in
+src/main/java/gof/console/GameOfLife.java:11:	ShortVariable: Avoid variables with short names like in
+src/main/java/gof/console/GameOfLife.java:12:	LocalVariableCouldBeFinal: Local variable 'iterations' could be declared final
+src/main/java/gof/console/GameOfLife.java:12:	LocalVariableCouldBeFinal: Local variable 'iterations' could be declared final
+src/main/java/gof/console/GameOfLife.java:15:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'dd' (lines '15'-'23').
+src/main/java/gof/console/GameOfLife.java:15:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'dd' (lines '15'-'23').
+src/main/java/gof/console/GameOfLife.java:15:	LocalVariableCouldBeFinal: Local variable 'dd' could be declared final
+src/main/java/gof/console/GameOfLife.java:15:	LocalVariableCouldBeFinal: Local variable 'dd' could be declared final
+src/main/java/gof/console/GameOfLife.java:15:	ShortVariable: Avoid variables with short names like dd
+src/main/java/gof/console/GameOfLife.java:15:	ShortVariable: Avoid variables with short names like dd
+src/main/java/gof/console/GameOfLife.java:16:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '16'-'23').
+src/main/java/gof/console/GameOfLife.java:16:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '16'-'23').
+src/main/java/gof/console/GameOfLife.java:16:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/main/java/gof/console/GameOfLife.java:16:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/main/java/gof/console/GameOfLife.java:16:	ShortVariable: Avoid variables with short names like b
+src/main/java/gof/console/GameOfLife.java:16:	ShortVariable: Avoid variables with short names like b
+src/main/java/gof/core/Board.java:3:	CommentRequired: Class comments are required
+src/main/java/gof/core/Board.java:3:	CommentRequired: Class comments are required
+src/main/java/gof/core/Board.java:3:	ModifiedCyclomaticComplexity: The class 'Board' has a Modified Cyclomatic Complexity of 4 (Highest = 17).
+src/main/java/gof/core/Board.java:3:	ModifiedCyclomaticComplexity: The class 'Board' has a Modified Cyclomatic Complexity of 4 (Highest = 17).
+src/main/java/gof/core/Board.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Board.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Board.java:4:	CommentRequired: Field comments are required
+src/main/java/gof/core/Board.java:4:	CommentRequired: Field comments are required
+src/main/java/gof/core/Board.java:5:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Board.java:5:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Board.java:5:	CommentRequired: Field comments are required
+src/main/java/gof/core/Board.java:5:	CommentRequired: Field comments are required
+src/main/java/gof/core/Board.java:5:	ImmutableField: Private field 'height' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/core/Board.java:5:	ImmutableField: Private field 'height' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/core/Board.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Board.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Board.java:6:	CommentRequired: Field comments are required
+src/main/java/gof/core/Board.java:6:	CommentRequired: Field comments are required
+src/main/java/gof/core/Board.java:6:	ImmutableField: Private field 'width' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/core/Board.java:6:	ImmutableField: Private field 'width' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/core/Board.java:8:	ArrayIsStoredDirectly: The user-supplied array 'grid' is stored directly.
+src/main/java/gof/core/Board.java:8:	ArrayIsStoredDirectly: The user-supplied array 'grid' is stored directly.
+src/main/java/gof/core/Board.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:8:	MethodArgumentCouldBeFinal: Parameter 'grid' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:8:	MethodArgumentCouldBeFinal: Parameter 'grid' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:8:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/gof/core/Board.java:8:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/gof/core/Board.java:18:	MethodArgumentCouldBeFinal: Parameter 'height' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:18:	MethodArgumentCouldBeFinal: Parameter 'height' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:18:	MethodArgumentCouldBeFinal: Parameter 'p' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:18:	MethodArgumentCouldBeFinal: Parameter 'p' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:18:	MethodArgumentCouldBeFinal: Parameter 'width' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:18:	MethodArgumentCouldBeFinal: Parameter 'width' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:18:	ShortVariable: Avoid variables with short names like p
+src/main/java/gof/core/Board.java:18:	ShortVariable: Avoid variables with short names like p
+src/main/java/gof/core/Board.java:25:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/core/Board.java:25:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/core/Board.java:35:	MethodReturnsInternalArray: Returning 'grid' may expose an internal array.
+src/main/java/gof/core/Board.java:35:	MethodReturnsInternalArray: Returning 'grid' may expose an internal array.
+src/main/java/gof/core/Board.java:38:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:38:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:42:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:42:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:42:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:42:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:42:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:42:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:42:	ModifiedCyclomaticComplexity: The method 'neighboursCountAt' has a Modified Cyclomatic Complexity of 17.
+src/main/java/gof/core/Board.java:42:	ModifiedCyclomaticComplexity: The method 'neighboursCountAt' has a Modified Cyclomatic Complexity of 17.
+src/main/java/gof/core/Board.java:42:	NPathComplexity: The method 'neighboursCountAt(int, int)' has an NPath complexity of 20736
+src/main/java/gof/core/Board.java:42:	NPathComplexity: The method 'neighboursCountAt(int, int)' has an NPath complexity of 20736
+src/main/java/gof/core/Board.java:43:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '43'-'47').
+src/main/java/gof/core/Board.java:43:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '43'-'47').
+src/main/java/gof/core/Board.java:46:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:46:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '47'-'53').
+src/main/java/gof/core/Board.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '47'-'53').
+src/main/java/gof/core/Board.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '47'-'59').
+src/main/java/gof/core/Board.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '47'-'59').
+src/main/java/gof/core/Board.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '47'-'64').
+src/main/java/gof/core/Board.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '47'-'64').
+src/main/java/gof/core/Board.java:52:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:52:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'59').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'59').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'64').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'64').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'70').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'70').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'76').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'76').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'82').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'82').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'88').
+src/main/java/gof/core/Board.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '53'-'88').
+src/main/java/gof/core/Board.java:58:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:58:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'64').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'64').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'70').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'70').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'76').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'76').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'82').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'82').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'88').
+src/main/java/gof/core/Board.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '59'-'88').
+src/main/java/gof/core/Board.java:63:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:63:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'70').
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'70').
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'76').
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'76').
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'82').
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'82').
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'88').
+src/main/java/gof/core/Board.java:64:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '64'-'88').
+src/main/java/gof/core/Board.java:69:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:69:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '70'-'76').
+src/main/java/gof/core/Board.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '70'-'76').
+src/main/java/gof/core/Board.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '70'-'82').
+src/main/java/gof/core/Board.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '70'-'82').
+src/main/java/gof/core/Board.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '70'-'88').
+src/main/java/gof/core/Board.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '70'-'88').
+src/main/java/gof/core/Board.java:75:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:75:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:76:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '76'-'82').
+src/main/java/gof/core/Board.java:76:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '76'-'82').
+src/main/java/gof/core/Board.java:76:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '76'-'88').
+src/main/java/gof/core/Board.java:76:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '76'-'88').
+src/main/java/gof/core/Board.java:81:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:81:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:82:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '82'-'88').
+src/main/java/gof/core/Board.java:82:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sum' (lines '82'-'88').
+src/main/java/gof/core/Board.java:87:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:87:	CollapsibleIfStatements: These nested if statements could be combined
+src/main/java/gof/core/Board.java:95:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:95:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:95:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:95:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:95:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:95:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/main/java/gof/core/Board.java:96:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:96:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:96:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:96:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:96:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:96:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:99:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:99:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Board.java:111:	LocalVariableCouldBeFinal: Local variable 'nr' could be declared final
+src/main/java/gof/core/Board.java:111:	LocalVariableCouldBeFinal: Local variable 'nr' could be declared final
+src/main/java/gof/core/Board.java:111:	ShortVariable: Avoid variables with short names like nr
+src/main/java/gof/core/Board.java:111:	ShortVariable: Avoid variables with short names like nr
+src/main/java/gof/core/Board.java:112:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:112:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:113:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:113:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:113:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:113:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:113:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:113:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:113:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:113:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:114:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:114:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:114:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:115:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:115:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:124:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/main/java/gof/core/Board.java:124:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/main/java/gof/core/Board.java:126:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:126:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:126:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:126:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:126:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Board.java:126:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/core/Cell.java:3:	CommentRequired: Class comments are required
+src/main/java/gof/core/Cell.java:3:	CommentRequired: Class comments are required
+src/main/java/gof/core/Cell.java:3:	ShortClassName: Avoid short class names like Cell
+src/main/java/gof/core/Cell.java:3:	ShortClassName: Avoid short class names like Cell
+src/main/java/gof/core/Cell.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Cell.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Cell.java:4:	CommentRequired: Field comments are required
+src/main/java/gof/core/Cell.java:4:	CommentRequired: Field comments are required
+src/main/java/gof/core/Cell.java:4:	RedundantFieldInitializer: Avoid using redundant field initializer for 'state'
+src/main/java/gof/core/Cell.java:4:	RedundantFieldInitializer: Avoid using redundant field initializer for 'state'
+src/main/java/gof/core/Cell.java:5:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Cell.java:5:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/core/Cell.java:5:	CommentRequired: Field comments are required
+src/main/java/gof/core/Cell.java:5:	CommentRequired: Field comments are required
+src/main/java/gof/core/Cell.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Cell.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Cell.java:7:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/gof/core/Cell.java:7:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/gof/core/Cell.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Cell.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Cell.java:11:	MethodArgumentCouldBeFinal: Parameter 'state' is not assigned and could be declared final
+src/main/java/gof/core/Cell.java:11:	MethodArgumentCouldBeFinal: Parameter 'state' is not assigned and could be declared final
+src/main/java/gof/core/Cell.java:15:	MethodArgumentCouldBeFinal: Parameter 'state' is not assigned and could be declared final
+src/main/java/gof/core/Cell.java:15:	MethodArgumentCouldBeFinal: Parameter 'state' is not assigned and could be declared final
+src/main/java/gof/core/Cell.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Cell.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/Cell.java:23:	BooleanGetMethodName: A getX() method which returns a boolean should be named isX()
+src/main/java/gof/core/Cell.java:23:	BooleanGetMethodName: A getX() method which returns a boolean should be named isX()
+src/main/java/gof/core/DisplayDriver.java:3:	CommentRequired: Class comments are required
+src/main/java/gof/core/DisplayDriver.java:3:	CommentRequired: Class comments are required
+src/main/java/gof/core/DisplayDriver.java:4:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/core/DisplayDriver.java:4:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/Controller.java:34:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/gui/Controller.java:34:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/gui/Controller.java:34:	CommentRequired: Class comments are required
+src/main/java/gof/gui/Controller.java:34:	CommentRequired: Class comments are required
+src/main/java/gof/gui/Controller.java:34:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/main/java/gof/gui/Controller.java:34:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/main/java/gof/gui/Controller.java:36:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:36:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:36:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:36:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:36:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/gof/gui/Controller.java:36:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/gof/gui/Controller.java:37:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:37:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:37:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:37:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:37:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/gof/gui/Controller.java:37:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/gof/gui/Controller.java:40:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:40:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:40:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:40:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:42:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:42:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:42:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:42:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:44:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:44:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:44:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:44:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:46:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:46:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:46:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:46:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:48:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:48:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:48:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:50:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:50:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:52:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:52:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:52:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:52:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:54:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:54:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:54:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:54:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:56:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:56:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:56:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:56:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:58:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:58:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:58:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:58:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:58:	RedundantFieldInitializer: Avoid using redundant field initializer for 'loop'
+src/main/java/gof/gui/Controller.java:58:	RedundantFieldInitializer: Avoid using redundant field initializer for 'loop'
+src/main/java/gof/gui/Controller.java:60:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:60:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:60:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:60:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:61:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:61:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:61:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:61:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:63:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:63:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/Controller.java:63:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:63:	CommentRequired: Field comments are required
+src/main/java/gof/gui/Controller.java:66:	MethodArgumentCouldBeFinal: Parameter 'location' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:66:	MethodArgumentCouldBeFinal: Parameter 'location' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:66:	MethodArgumentCouldBeFinal: Parameter 'resources' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:66:	MethodArgumentCouldBeFinal: Parameter 'resources' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:68:	LocalVariableCouldBeFinal: Local variable 'anchor' could be declared final
+src/main/java/gof/gui/Controller.java:68:	LocalVariableCouldBeFinal: Local variable 'anchor' could be declared final
+src/main/java/gof/gui/Controller.java:69:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/Controller.java:69:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/Controller.java:77:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:77:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:77:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:77:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:77:	UnusedPrivateMethod: Avoid unused private methods such as 'onRun(Event)'.
+src/main/java/gof/gui/Controller.java:77:	UnusedPrivateMethod: Avoid unused private methods such as 'onRun(Event)'.
+src/main/java/gof/gui/Controller.java:90:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:90:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:90:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:90:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:90:	UnusedPrivateMethod: Avoid unused private methods such as 'onStop(Event)'.
+src/main/java/gof/gui/Controller.java:90:	UnusedPrivateMethod: Avoid unused private methods such as 'onStop(Event)'.
+src/main/java/gof/gui/Controller.java:96:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:96:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:96:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:96:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:96:	UnusedPrivateMethod: Avoid unused private methods such as 'onClear(Event)'.
+src/main/java/gof/gui/Controller.java:96:	UnusedPrivateMethod: Avoid unused private methods such as 'onClear(Event)'.
+src/main/java/gof/gui/Controller.java:101:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:101:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:101:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:101:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:101:	UnusedPrivateMethod: Avoid unused private methods such as 'onRandomize(Event)'.
+src/main/java/gof/gui/Controller.java:101:	UnusedPrivateMethod: Avoid unused private methods such as 'onRandomize(Event)'.
+src/main/java/gof/gui/Controller.java:106:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:106:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:106:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:106:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:106:	UnusedPrivateMethod: Avoid unused private methods such as 'onPresetOpen(Event)'.
+src/main/java/gof/gui/Controller.java:106:	UnusedPrivateMethod: Avoid unused private methods such as 'onPresetOpen(Event)'.
+src/main/java/gof/gui/Controller.java:115:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:115:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:115:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:115:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:115:	UnusedPrivateMethod: Avoid unused private methods such as 'onOpen(Event)'.
+src/main/java/gof/gui/Controller.java:115:	UnusedPrivateMethod: Avoid unused private methods such as 'onOpen(Event)'.
+src/main/java/gof/gui/Controller.java:116:	LocalVariableCouldBeFinal: Local variable 'newBoard' could be declared final
+src/main/java/gof/gui/Controller.java:116:	LocalVariableCouldBeFinal: Local variable 'newBoard' could be declared final
+src/main/java/gof/gui/Controller.java:124:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:124:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:124:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:124:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:124:	UnusedPrivateMethod: Avoid unused private methods such as 'onSave(Event)'.
+src/main/java/gof/gui/Controller.java:124:	UnusedPrivateMethod: Avoid unused private methods such as 'onSave(Event)'.
+src/main/java/gof/gui/Controller.java:130:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:130:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:130:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:130:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:130:	UnusedPrivateMethod: Avoid unused private methods such as 'onSlide(Event)'.
+src/main/java/gof/gui/Controller.java:130:	UnusedPrivateMethod: Avoid unused private methods such as 'onSlide(Event)'.
+src/main/java/gof/gui/Controller.java:133:	MethodArgumentCouldBeFinal: Parameter 'observable' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:133:	MethodArgumentCouldBeFinal: Parameter 'observable' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:134:	MethodArgumentCouldBeFinal: Parameter 'newValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:134:	MethodArgumentCouldBeFinal: Parameter 'newValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:134:	MethodArgumentCouldBeFinal: Parameter 'oldValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:134:	MethodArgumentCouldBeFinal: Parameter 'oldValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:135:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:135:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:136:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:136:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:143:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:143:	MethodArgumentCouldBeFinal: Parameter 'evt' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:143:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:143:	UnusedFormalParameter: Avoid unused method parameters such as 'evt'.
+src/main/java/gof/gui/Controller.java:143:	UnusedPrivateMethod: Avoid unused private methods such as 'onAbout(Event)'.
+src/main/java/gof/gui/Controller.java:143:	UnusedPrivateMethod: Avoid unused private methods such as 'onAbout(Event)'.
+src/main/java/gof/gui/Controller.java:145:	LocalVariableCouldBeFinal: Local variable 'text1' could be declared final
+src/main/java/gof/gui/Controller.java:145:	LocalVariableCouldBeFinal: Local variable 'text1' could be declared final
+src/main/java/gof/gui/Controller.java:147:	LocalVariableCouldBeFinal: Local variable 'text2' could be declared final
+src/main/java/gof/gui/Controller.java:147:	LocalVariableCouldBeFinal: Local variable 'text2' could be declared final
+src/main/java/gof/gui/Controller.java:151:	LocalVariableCouldBeFinal: Local variable 'text3' could be declared final
+src/main/java/gof/gui/Controller.java:151:	LocalVariableCouldBeFinal: Local variable 'text3' could be declared final
+src/main/java/gof/gui/Controller.java:153:	LocalVariableCouldBeFinal: Local variable 'text4' could be declared final
+src/main/java/gof/gui/Controller.java:153:	LocalVariableCouldBeFinal: Local variable 'text4' could be declared final
+src/main/java/gof/gui/Controller.java:161:	LocalVariableCouldBeFinal: Local variable 'link' could be declared final
+src/main/java/gof/gui/Controller.java:161:	LocalVariableCouldBeFinal: Local variable 'link' could be declared final
+src/main/java/gof/gui/Controller.java:162:	LocalVariableCouldBeFinal: Local variable 'tf' could be declared final
+src/main/java/gof/gui/Controller.java:162:	LocalVariableCouldBeFinal: Local variable 'tf' could be declared final
+src/main/java/gof/gui/Controller.java:162:	ShortVariable: Avoid variables with short names like tf
+src/main/java/gof/gui/Controller.java:162:	ShortVariable: Avoid variables with short names like tf
+src/main/java/gof/gui/Controller.java:169:	LocalVariableCouldBeFinal: Local variable 'dialogVbox' could be declared final
+src/main/java/gof/gui/Controller.java:169:	LocalVariableCouldBeFinal: Local variable 'dialogVbox' could be declared final
+src/main/java/gof/gui/Controller.java:170:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/Controller.java:170:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/Controller.java:171:	LocalVariableCouldBeFinal: Local variable 'dialogScene' could be declared final
+src/main/java/gof/gui/Controller.java:171:	LocalVariableCouldBeFinal: Local variable 'dialogScene' could be declared final
+src/main/java/gof/gui/Controller.java:177:	MethodArgumentCouldBeFinal: Parameter 'enable' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:177:	MethodArgumentCouldBeFinal: Parameter 'enable' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:190:	MethodArgumentCouldBeFinal: Parameter 'prob' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:190:	MethodArgumentCouldBeFinal: Parameter 'prob' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:190:	MethodArgumentCouldBeFinal: Parameter 'size' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:190:	MethodArgumentCouldBeFinal: Parameter 'size' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:198:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/Controller.java:198:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/Controller.java:203:	LocalVariableCouldBeFinal: Local variable 'sizeListener' could be declared final
+src/main/java/gof/gui/Controller.java:203:	LocalVariableCouldBeFinal: Local variable 'sizeListener' could be declared final
+src/main/java/gof/gui/Controller.java:205:	MethodArgumentCouldBeFinal: Parameter 'newValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:205:	MethodArgumentCouldBeFinal: Parameter 'newValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:205:	MethodArgumentCouldBeFinal: Parameter 'observable' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:205:	MethodArgumentCouldBeFinal: Parameter 'observable' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:205:	MethodArgumentCouldBeFinal: Parameter 'oldValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:205:	MethodArgumentCouldBeFinal: Parameter 'oldValue' is not assigned and could be declared final
+src/main/java/gof/gui/Controller.java:207:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:207:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:208:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:208:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:209:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:209:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:210:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:210:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/Controller.java:214:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/Controller.java:214:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:15:	CommentRequired: Class comments are required
+src/main/java/gof/gui/FileHandler.java:15:	CommentRequired: Class comments are required
+src/main/java/gof/gui/FileHandler.java:15:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/gof/gui/FileHandler.java:15:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/gof/gui/FileHandler.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/FileHandler.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/FileHandler.java:17:	MethodArgumentCouldBeFinal: Parameter 'defaultSize' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:17:	MethodArgumentCouldBeFinal: Parameter 'defaultSize' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:18:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/gof/gui/FileHandler.java:18:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/gof/gui/FileHandler.java:20:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/gof/gui/FileHandler.java:20:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/gof/gui/FileHandler.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/FileHandler.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/FileHandler.java:26:	MethodArgumentCouldBeFinal: Parameter 'defaultSize' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:26:	MethodArgumentCouldBeFinal: Parameter 'defaultSize' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:26:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:26:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:27:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'input' (lines '27'-'55').
+src/main/java/gof/gui/FileHandler.java:27:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'input' (lines '27'-'55').
+src/main/java/gof/gui/FileHandler.java:28:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sz' (lines '28'-'34').
+src/main/java/gof/gui/FileHandler.java:28:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sz' (lines '28'-'34').
+src/main/java/gof/gui/FileHandler.java:28:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sz' (lines '28'-'55').
+src/main/java/gof/gui/FileHandler.java:28:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sz' (lines '28'-'55').
+src/main/java/gof/gui/FileHandler.java:28:	ShortVariable: Avoid variables with short names like sz
+src/main/java/gof/gui/FileHandler.java:28:	ShortVariable: Avoid variables with short names like sz
+src/main/java/gof/gui/FileHandler.java:29:	ShortVariable: Avoid variables with short names like s
+src/main/java/gof/gui/FileHandler.java:29:	ShortVariable: Avoid variables with short names like s
+src/main/java/gof/gui/FileHandler.java:31:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:31:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:31:	LocalVariableCouldBeFinal: Local variable 'line' could be declared final
+src/main/java/gof/gui/FileHandler.java:31:	LocalVariableCouldBeFinal: Local variable 'line' could be declared final
+src/main/java/gof/gui/FileHandler.java:32:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/gui/FileHandler.java:32:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/gui/FileHandler.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sz' (lines '34'-'34').
+src/main/java/gof/gui/FileHandler.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'sz' (lines '34'-'34').
+src/main/java/gof/gui/FileHandler.java:34:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sz' (lines '34'-'55').
+src/main/java/gof/gui/FileHandler.java:34:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sz' (lines '34'-'55').
+src/main/java/gof/gui/FileHandler.java:34:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/gof/gui/FileHandler.java:34:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/gof/gui/FileHandler.java:40:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/gof/gui/FileHandler.java:40:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/gof/gui/FileHandler.java:43:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/FileHandler.java:43:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/FileHandler.java:48:	LocalVariableCouldBeFinal: Local variable 'state' could be declared final
+src/main/java/gof/gui/FileHandler.java:48:	LocalVariableCouldBeFinal: Local variable 'state' could be declared final
+src/main/java/gof/gui/FileHandler.java:48:	UselessParentheses: Useless parentheses.
+src/main/java/gof/gui/FileHandler.java:48:	UselessParentheses: Useless parentheses.
+src/main/java/gof/gui/FileHandler.java:49:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/FileHandler.java:49:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/FileHandler.java:57:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/FileHandler.java:57:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/FileHandler.java:57:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:57:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/gui/FileHandler.java:58:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/gof/gui/FileHandler.java:58:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/gof/gui/FileHandler.java:64:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/gof/gui/FileHandler.java:64:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/gof/gui/FileHandler.java:64:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/FileHandler.java:64:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/FileHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/FileHandler.java:67:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/gui/FileHandler.java:67:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/gui/FileHandler.java:70:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/gui/FileHandler.java:70:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/gof/gui/FileHandler.java:74:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/gof/gui/FileHandler.java:74:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/gof/gui/FileHandler.java:78:	SystemPrintln: System.out.println is used
+src/main/java/gof/gui/FileHandler.java:78:	SystemPrintln: System.out.println is used
+src/main/java/gof/gui/FileHandler.java:91:	LocalVariableCouldBeFinal: Local variable 'fileChooser' could be declared final
+src/main/java/gof/gui/FileHandler.java:91:	LocalVariableCouldBeFinal: Local variable 'fileChooser' could be declared final
+src/main/java/gof/gui/GameOfLife.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/gui/GameOfLife.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/gui/GameOfLife.java:9:	CommentRequired: Class comments are required
+src/main/java/gof/gui/GameOfLife.java:9:	CommentRequired: Class comments are required
+src/main/java/gof/gui/GameOfLife.java:12:	MethodArgumentCouldBeFinal: Parameter 'primaryStage' is not assigned and could be declared final
+src/main/java/gof/gui/GameOfLife.java:12:	MethodArgumentCouldBeFinal: Parameter 'primaryStage' is not assigned and could be declared final
+src/main/java/gof/gui/GameOfLife.java:13:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/GameOfLife.java:13:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/GameOfLife.java:13:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/GameOfLife.java:13:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/GameOfLife.java:13:	LocalVariableCouldBeFinal: Local variable 'parent' could be declared final
+src/main/java/gof/gui/GameOfLife.java:13:	LocalVariableCouldBeFinal: Local variable 'parent' could be declared final
+src/main/java/gof/gui/GameOfLife.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/GameOfLife.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/GameOfLife.java:20:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/gof/gui/GameOfLife.java:20:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:6:	UnusedImports: Avoid unused imports such as 'javafx.scene.Group'
+src/main/java/gof/gui/JavaFXDisplayDriver.java:6:	UnusedImports: Avoid unused imports such as 'javafx.scene.Group'
+src/main/java/gof/gui/JavaFXDisplayDriver.java:11:	CommentRequired: Class comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:11:	CommentRequired: Class comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	CommentRequired: Field comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	CommentRequired: Field comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	ImmutableField: Private field 'sz' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	ImmutableField: Private field 'sz' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	ShortVariable: Avoid variables with short names like sz
+src/main/java/gof/gui/JavaFXDisplayDriver.java:12:	ShortVariable: Avoid variables with short names like sz
+src/main/java/gof/gui/JavaFXDisplayDriver.java:13:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:13:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:13:	CommentRequired: Field comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:13:	CommentRequired: Field comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:13:	ImmutableField: Private field 'tilePane' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:13:	ImmutableField: Private field 'tilePane' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	MethodArgumentCouldBeFinal: Parameter 'boardSize' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	MethodArgumentCouldBeFinal: Parameter 'boardSize' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	MethodArgumentCouldBeFinal: Parameter 'cellSizePx' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:15:	MethodArgumentCouldBeFinal: Parameter 'cellSizePx' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:20:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:20:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:20:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/JavaFXDisplayDriver.java:20:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/JavaFXDisplayDriver.java:23:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:23:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:23:	ShortVariable: Avoid variables with short names like c
+src/main/java/gof/gui/JavaFXDisplayDriver.java:23:	ShortVariable: Avoid variables with short names like c
+src/main/java/gof/gui/JavaFXDisplayDriver.java:24:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/JavaFXDisplayDriver.java:24:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/JavaFXDisplayDriver.java:24:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:24:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:24:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/gui/JavaFXDisplayDriver.java:24:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/gui/JavaFXDisplayDriver.java:33:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:33:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:34:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:34:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:34:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/JavaFXDisplayDriver.java:34:	ShortVariable: Avoid variables with short names like g
+src/main/java/gof/gui/JavaFXDisplayDriver.java:37:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:37:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:37:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:37:	LocalVariableCouldBeFinal: Local variable 'r' could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:37:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/gui/JavaFXDisplayDriver.java:37:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:38:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/gof/gui/JavaFXDisplayDriver.java:43:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:43:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	ShortVariable: Avoid variables with short names like i
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	ShortVariable: Avoid variables with short names like i
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	ShortVariable: Avoid variables with short names like j
+src/main/java/gof/gui/JavaFXDisplayDriver.java:47:	ShortVariable: Avoid variables with short names like j
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	MethodArgumentCouldBeFinal: Parameter 'r' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	MethodArgumentCouldBeFinal: Parameter 'r' is not assigned and could be declared final
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	ShortVariable: Avoid variables with short names like c
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	ShortVariable: Avoid variables with short names like c
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/gui/JavaFXDisplayDriver.java:51:	ShortVariable: Avoid variables with short names like r
+src/main/java/gof/gui/PresetHandler.java:4:	UnusedImports: Avoid unused imports such as 'gof.core.Cell'
+src/main/java/gof/gui/PresetHandler.java:4:	UnusedImports: Avoid unused imports such as 'gof.core.Cell'
+src/main/java/gof/gui/PresetHandler.java:8:	UnusedImports: Avoid unused imports such as 'java.io.FileNotFoundException'
+src/main/java/gof/gui/PresetHandler.java:8:	UnusedImports: Avoid unused imports such as 'java.io.FileNotFoundException'
+src/main/java/gof/gui/PresetHandler.java:9:	UnusedImports: Avoid unused imports such as 'java.util.Scanner'
+src/main/java/gof/gui/PresetHandler.java:9:	UnusedImports: Avoid unused imports such as 'java.util.Scanner'
+src/main/java/gof/gui/PresetHandler.java:11:	UnusedImports: Avoid unused imports such as 'javafx.scene.Group'
+src/main/java/gof/gui/PresetHandler.java:11:	UnusedImports: Avoid unused imports such as 'javafx.scene.Group'
+src/main/java/gof/gui/PresetHandler.java:13:	UnusedImports: Avoid unused imports such as 'javafx.scene.control.Button'
+src/main/java/gof/gui/PresetHandler.java:13:	UnusedImports: Avoid unused imports such as 'javafx.scene.control.Button'
+src/main/java/gof/gui/PresetHandler.java:25:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/gui/PresetHandler.java:25:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/gof/gui/PresetHandler.java:25:	CommentRequired: Class comments are required
+src/main/java/gof/gui/PresetHandler.java:25:	CommentRequired: Class comments are required
+src/main/java/gof/gui/PresetHandler.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/PresetHandler.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/PresetHandler.java:26:	CommentRequired: Field comments are required
+src/main/java/gof/gui/PresetHandler.java:26:	CommentRequired: Field comments are required
+src/main/java/gof/gui/PresetHandler.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/PresetHandler.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/PresetHandler.java:27:	CommentRequired: Field comments are required
+src/main/java/gof/gui/PresetHandler.java:27:	CommentRequired: Field comments are required
+src/main/java/gof/gui/PresetHandler.java:27:	RedundantFieldInitializer: Avoid using redundant field initializer for 'presetCount'
+src/main/java/gof/gui/PresetHandler.java:27:	RedundantFieldInitializer: Avoid using redundant field initializer for 'presetCount'
+src/main/java/gof/gui/PresetHandler.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/PresetHandler.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/gof/gui/PresetHandler.java:28:	CommentRequired: Field comments are required
+src/main/java/gof/gui/PresetHandler.java:28:	CommentRequired: Field comments are required
+src/main/java/gof/gui/PresetHandler.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/PresetHandler.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/PresetHandler.java:30:	MethodArgumentCouldBeFinal: Parameter 'base' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:30:	MethodArgumentCouldBeFinal: Parameter 'base' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:32:	LocalVariableCouldBeFinal: Local variable 'dir' could be declared final
+src/main/java/gof/gui/PresetHandler.java:32:	LocalVariableCouldBeFinal: Local variable 'dir' could be declared final
+src/main/java/gof/gui/PresetHandler.java:33:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'selectedFiles' (lines '33'-'70').
+src/main/java/gof/gui/PresetHandler.java:33:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'selectedFiles' (lines '33'-'70').
+src/main/java/gof/gui/PresetHandler.java:33:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'selectedFiles' (lines '33'-'70').
+src/main/java/gof/gui/PresetHandler.java:33:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'selectedFiles' (lines '33'-'70').
+src/main/java/gof/gui/PresetHandler.java:33:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'selectedFiles' (lines '33'-'70').
+src/main/java/gof/gui/PresetHandler.java:33:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'selectedFiles' (lines '33'-'70').
+src/main/java/gof/gui/PresetHandler.java:33:	LocalVariableCouldBeFinal: Local variable 'selectedFiles' could be declared final
+src/main/java/gof/gui/PresetHandler.java:33:	LocalVariableCouldBeFinal: Local variable 'selectedFiles' could be declared final
+src/main/java/gof/gui/PresetHandler.java:35:	MethodArgumentCouldBeFinal: Parameter 'pathname' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:35:	MethodArgumentCouldBeFinal: Parameter 'pathname' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:37:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/PresetHandler.java:37:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/PresetHandler.java:42:	ShortVariable: Avoid variables with short names like pr
+src/main/java/gof/gui/PresetHandler.java:42:	ShortVariable: Avoid variables with short names like pr
+src/main/java/gof/gui/PresetHandler.java:44:	LocalVariableCouldBeFinal: Local variable 'selectedFile' could be declared final
+src/main/java/gof/gui/PresetHandler.java:44:	LocalVariableCouldBeFinal: Local variable 'selectedFile' could be declared final
+src/main/java/gof/gui/PresetHandler.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:49:	LocalVariableCouldBeFinal: Local variable 'presetsPagination' could be declared final
+src/main/java/gof/gui/PresetHandler.java:49:	LocalVariableCouldBeFinal: Local variable 'presetsPagination' could be declared final
+src/main/java/gof/gui/PresetHandler.java:53:	MethodArgumentCouldBeFinal: Parameter 'pageIndex' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:53:	MethodArgumentCouldBeFinal: Parameter 'pageIndex' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:54:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/PresetHandler.java:54:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/PresetHandler.java:57:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/PresetHandler.java:57:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/gof/gui/PresetHandler.java:62:	LocalVariableCouldBeFinal: Local variable 'anchor' could be declared final
+src/main/java/gof/gui/PresetHandler.java:62:	LocalVariableCouldBeFinal: Local variable 'anchor' could be declared final
+src/main/java/gof/gui/PresetHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:72:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/PresetHandler.java:72:	CommentRequired: Public method and constructor comments are required
+src/main/java/gof/gui/PresetHandler.java:72:	MethodArgumentCouldBeFinal: Parameter 'defaultSize' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:72:	MethodArgumentCouldBeFinal: Parameter 'defaultSize' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:73:	LocalVariableCouldBeFinal: Local variable 'selectedFile' could be declared final
+src/main/java/gof/gui/PresetHandler.java:73:	LocalVariableCouldBeFinal: Local variable 'selectedFile' could be declared final
+src/main/java/gof/gui/PresetHandler.java:73:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/gof/gui/PresetHandler.java:73:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/gof/gui/PresetHandler.java:77:	MethodArgumentCouldBeFinal: Parameter 'base' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:77:	MethodArgumentCouldBeFinal: Parameter 'base' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:77:	MethodArgumentCouldBeFinal: Parameter 'pageIndex' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:77:	MethodArgumentCouldBeFinal: Parameter 'pageIndex' is not assigned and could be declared final
+src/main/java/gof/gui/PresetHandler.java:77:	UnusedFormalParameter: Avoid unused method parameters such as 'base'.
+src/main/java/gof/gui/PresetHandler.java:77:	UnusedFormalParameter: Avoid unused method parameters such as 'base'.
+src/main/java/gof/gui/PresetHandler.java:78:	LocalVariableCouldBeFinal: Local variable 'box' could be declared final
+src/main/java/gof/gui/PresetHandler.java:78:	LocalVariableCouldBeFinal: Local variable 'box' could be declared final
+src/main/java/gof/gui/PresetHandler.java:80:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:80:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:80:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/gof/gui/PresetHandler.java:80:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:83:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:83:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:83:	LocalVariableCouldBeFinal: Local variable 'l' could be declared final
+src/main/java/gof/gui/PresetHandler.java:83:	LocalVariableCouldBeFinal: Local variable 'l' could be declared final
+src/main/java/gof/gui/PresetHandler.java:83:	ShortVariable: Avoid variables with short names like l
+src/main/java/gof/gui/PresetHandler.java:83:	ShortVariable: Avoid variables with short names like l
+src/main/java/gof/gui/PresetHandler.java:85:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:85:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:85:	LocalVariableCouldBeFinal: Local variable 'nameAndOpen' could be declared final
+src/main/java/gof/gui/PresetHandler.java:85:	LocalVariableCouldBeFinal: Local variable 'nameAndOpen' could be declared final
+src/main/java/gof/gui/PresetHandler.java:86:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:86:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:87:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:87:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:87:	LocalVariableCouldBeFinal: Local variable 'f1' could be declared final
+src/main/java/gof/gui/PresetHandler.java:87:	LocalVariableCouldBeFinal: Local variable 'f1' could be declared final
+src/main/java/gof/gui/PresetHandler.java:87:	ShortVariable: Avoid variables with short names like f1
+src/main/java/gof/gui/PresetHandler.java:87:	ShortVariable: Avoid variables with short names like f1
+src/main/java/gof/gui/PresetHandler.java:89:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:89:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:89:	LocalVariableCouldBeFinal: Local variable 'myPreset' could be declared final
+src/main/java/gof/gui/PresetHandler.java:89:	LocalVariableCouldBeFinal: Local variable 'myPreset' could be declared final
+src/main/java/gof/gui/PresetHandler.java:90:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:90:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:90:	LocalVariableCouldBeFinal: Local variable 'myPresetView' could be declared final
+src/main/java/gof/gui/PresetHandler.java:90:	LocalVariableCouldBeFinal: Local variable 'myPresetView' could be declared final
+src/main/java/gof/gui/PresetHandler.java:92:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:92:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:94:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:94:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:94:	LocalVariableCouldBeFinal: Local variable 'f' could be declared final
+src/main/java/gof/gui/PresetHandler.java:94:	LocalVariableCouldBeFinal: Local variable 'f' could be declared final
+src/main/java/gof/gui/PresetHandler.java:94:	ShortVariable: Avoid variables with short names like f
+src/main/java/gof/gui/PresetHandler.java:94:	ShortVariable: Avoid variables with short names like f
+src/main/java/gof/gui/PresetHandler.java:96:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:96:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:96:	LocalVariableCouldBeFinal: Local variable 'noprevImg' could be declared final
+src/main/java/gof/gui/PresetHandler.java:96:	LocalVariableCouldBeFinal: Local variable 'noprevImg' could be declared final
+src/main/java/gof/gui/PresetHandler.java:97:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:97:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/gof/gui/PresetHandler.java:97:	LocalVariableCouldBeFinal: Local variable 'noprev' could be declared final
+src/main/java/gof/gui/PresetHandler.java:97:	LocalVariableCouldBeFinal: Local variable 'noprev' could be declared final
+src/main/java/gof/gui/PresetHandler.java:99:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:99:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:101:	SystemPrintln: System.out.println is used
+src/main/java/gof/gui/PresetHandler.java:101:	SystemPrintln: System.out.println is used
+src/main/java/gof/gui/PresetHandler.java:105:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/gof/gui/PresetHandler.java:105:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/BoardTest.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/BoardTest.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/BoardTest.java:8:	CommentRequired: Class comments are required
+src/test/java/BoardTest.java:8:	CommentRequired: Class comments are required
+src/test/java/BoardTest.java:8:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/BoardTest.java:8:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/BoardTest.java:11:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:11:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:11:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/BoardTest.java:11:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/BoardTest.java:14:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:14:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:19:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:19:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:19:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:19:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:21:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:21:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:22:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:22:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:23:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:23:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:27:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:27:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:27:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/BoardTest.java:27:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/BoardTest.java:28:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:28:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:34:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:34:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:34:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:34:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:36:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:36:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:36:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:36:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:37:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:37:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:37:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:37:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:41:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:41:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:41:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:41:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:42:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:42:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:42:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:42:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:43:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:43:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:43:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:43:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:44:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:44:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:44:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:44:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:45:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:45:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:45:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:45:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:49:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:49:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:50:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:50:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:56:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:56:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:56:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:56:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:60:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:60:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:64:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:64:	CommentRequired: Public method and constructor comments are required
+src/test/java/BoardTest.java:64:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/BoardTest.java:64:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/BoardTest.java:65:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:65:	LocalVariableCouldBeFinal: Local variable 'cells' could be declared final
+src/test/java/BoardTest.java:71:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:71:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/test/java/BoardTest.java:71:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:71:	ShortVariable: Avoid variables with short names like b
+src/test/java/BoardTest.java:75:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:75:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:75:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:75:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:76:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:76:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:76:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:76:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:77:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:77:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:77:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:77:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:78:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:78:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:78:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:78:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:80:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:80:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:80:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:80:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:81:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:81:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/BoardTest.java:81:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/BoardTest.java:81:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/CellTest.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/CellTest.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/CellTest.java:7:	CommentRequired: Class comments are required
+src/test/java/CellTest.java:7:	CommentRequired: Class comments are required
+src/test/java/CellTest.java:7:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/CellTest.java:7:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/CellTest.java:10:	CommentRequired: Public method and constructor comments are required
+src/test/java/CellTest.java:10:	CommentRequired: Public method and constructor comments are required
+src/test/java/CellTest.java:11:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/test/java/CellTest.java:11:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/test/java/CellTest.java:11:	ShortVariable: Avoid variables with short names like c
+src/test/java/CellTest.java:11:	ShortVariable: Avoid variables with short names like c
+src/test/java/CellTest.java:15:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/CellTest.java:15:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/CellTest.java:15:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/CellTest.java:15:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/CellTest.java:19:	CommentRequired: Public method and constructor comments are required
+src/test/java/CellTest.java:19:	CommentRequired: Public method and constructor comments are required
+src/test/java/CellTest.java:20:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/test/java/CellTest.java:20:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/test/java/CellTest.java:20:	ShortVariable: Avoid variables with short names like c
+src/test/java/CellTest.java:20:	ShortVariable: Avoid variables with short names like c
+src/test/java/CellTest.java:22:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/CellTest.java:22:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/CellTest.java:22:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/CellTest.java:22:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
